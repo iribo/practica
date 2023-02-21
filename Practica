@@ -1,0 +1,455 @@
+# sum=0
+# for x in range (0,21):
+#     sum+=x
+#     print(sum)
+
+# n=int(input("Introduceti numar"))
+# if n < 0:
+#     print("Numar negativ")
+# elif n>0:
+#     print ("Numar pozitiv")
+# else:
+#     print("Numar egal cu zero")
+
+# car_status=False
+# speed=0
+
+# if car_status==True:
+#     if speed>50:
+#         print("Limita de viteza depasita")
+#     else:
+#         print("Lilmita de viteza in regula")
+# else:
+#     print("Masina parcata")
+
+# limit = 5
+# counter = 1
+# while (counter < limit):
+#     print(counter)
+#     counter += 1
+
+# print(counter)
+
+# word='python'
+
+# for letter in word:
+#     print(letter)
+
+# a=15
+# b=1
+
+# while b<5:
+#     print(str(a)+"*"+str(b)+"="+str(a*b))
+#     b+=1
+
+# for x in range(-10,0):
+#     print(x)
+# print("Done")
+# H = 10
+# a = 1
+# for i in range(H):
+#     for j in range(a):
+#         print("*",end="")
+#     a+=1
+#     print("") 
+  
+# sum=0  
+
+# while True:
+#     user_input=input("Introduceti un numar")
+#     if user_input=="":
+#         print("Totalul:",sum)
+#     else:
+#         if user_input.isnumeric():
+#             sum+=int(user_input)
+#         else:
+#             print("valoarea nu e numar")
+
+# r=10
+# H=50
+# Pi=3.14
+# V=r**2*Pi*H
+# print("Volumul cilindrului este:", V)
+
+    
+# if False:
+#     print("New York")
+# elif True:
+#     print("Moscow")
+# elif True:
+#     print("London")
+# else:
+#     print("City")
+# if None == False:
+#     print('Hello World')
+
+# for x in range(10):
+#   for y in range(10):
+#     if x*y > 50:
+#       print(x,y, end=', ')
+#   break
+# i=0
+# a=0
+# while i<10:
+#     a+=i
+#     i+=2
+#     print(i)
+
+# name="Marco";
+# if name=="Marco":
+#   print("Hello Marco")
+# else
+# var_a = True
+# var_b = False
+# if var_a==True:
+#   if var_b==False:
+#    print("1")
+#   else: print("2")
+# else: print("3")
+
+# i=0
+# a=0
+# while i<10:
+#    a+=i
+#    i+=2
+
+#    print(i)
+
+# fruits = ["apple", "orange", "lemon"]
+ 
+# for fruit in fruits:
+#     print(fruit)
+    
+# fruits = ["apple", "orange", "lemon"]
+ 
+# for fruit_index in range(len(fruits)):
+ 
+#     print(fruit_index)
+# ['L', 'o', 'n', 'd', 'o', 'n'].index('w')
+# s = "linguistics" 
+# print(s[1::3])
+
+# message = "Hello!"
+
+# for letter in message:
+#     print(letter)
+    
+    
+# devices = ["laptop", "phone", "desktop"]
+ 
+# for device_index in range(len(devices)):
+ 
+#     print(devices[device_index])
+# print("New York".split())
+# print("apple#banana#orange".split('#'))
+
+# x = 1
+# print(eval('x+1'))
+# x = '5/3'
+# print(eval(x))
+# a='5+7'
+# print(eval(a))
+
+# groups = [['student1', 'student2', 'student3'],
+ 
+#     ['student4', 'student5', 'student6'],
+ 
+#     ['student7', 'student8', 'student9'],
+ 
+#     ['student10', 'student11', 'student12']]
+ 
+ 
+# for group in groups:
+#     for student in group:
+#         print("Group: {},{}".format(groups.index(group),student),end = ', ')
+#     print('student')
+
+# a = [3,7,1,9,2,4,5,12]
+# odd = []
+# even = []
+# for num in a:
+#  even.append(num) if num % 2 == 0 else odd.append(num) 
+# print("Odds:")
+# print(odd)
+# print("Evens:")
+# print(even) 
+# l=[45,58,3,80]
+# def media_aritmetica(l):
+#   return sum(l)/len(l)
+
+# print(media_aritmetica(l))
+# lista_de_stringuri=["1,2,3,4,5", "buna seara", "trei", "20"]
+# def stringuri_min_5_caractere(lista):
+#     o_lista_noua=[]
+#     for i in lista: 
+#         if len(i)>=5:
+#           o_lista_noua.append(lista)
+#     return o_lista_noua
+
+# resultatul=stringuri_min_5_caractere(lista_de_stringuri)
+# print(resultatul)
+
+# l=[32,4,5,-32,1,2,52,62,40,12]
+# def nr_mai_mari_ca_5(l):
+#     o_lista_noua=[]
+#     for nr in l:
+#         if nr>=5:
+#             o_lista_noua.append(nr)
+#     return o_lista_noua
+# resultat=(nr_mai_mari_ca_5(l))
+# print(resultat)
+
+# s1="Testare"
+# s2="Scoala pentru o cariera de IT profitabila"
+
+# def cuvinte_fara_vocale (cuvant):
+#     vocale="a,e,o,u,i"
+#     cuvint_fara_vocale=""
+    
+#     for i in cuvant:
+#         if i not in vocale:
+#             cuvint_fara_vocale+=i
+            
+#     return cuvint_fara_vocale
+# print(cuvinte_fara_vocale(s1))
+            
+# set_a = set(['a', 'b', 5, 2])
+# print("Set_a: {}".format(set_a))
+ 
+# set_b = {'a', 'c', 5, 4, None}
+# print("Set_b: {}".format(set_b))
+ 
+ 
+# print("Intersection: {}".format(set_a & set_b)) 
+ 
+# print("Union: {}".format(set_a | set_b)) 
+ 
+# print("Difference: {}".format(set_a - set_b))
+# set_a.remove('a')
+# print(set_a)
+
+# student_dict = {'Name':'Marco', 'Field':'Electrical engineering', 'Age':'20'}
+
+# values_dict = dict(first=1, second = 2)
+
+# cities_dict = {}
+# cities_dict['city1'] = 'New York'
+# cities_dict['city2'] = 'London'
+# cities_dict['city3'] = 'Moscow'
+
+# print(student_dict)
+# print(values_dict)
+# print(cities_dict)
+# while True:
+#   messages = {"en":"Hello", "de": "Hallo", "it": "Ciao"}
+#   language = input("Choose language (en, de or it): ")
+#   print(messages[language]) 
+
+# x='x*3/5'       
+# print(x)
+# x=3//5
+# print(x)
+# a=1
+# b=2
+# a=b
+# b=a
+# print(a)
+
+# a='hello'
+# b=True
+# print(b==bool(a))
+
+# a=[10,5,10,'True','hello']
+# if a:
+#   print('Corect')
+# else:
+#   print('incorect')
+
+# not 2.5 and (not "1" or 2)
+
+# print("a"*True**2*False)
+
+# print(0 if [0] else 'No way')
+
+# print('53'*2**2+str(bool(())))
+# print(1+print(1))
+# print(1+len('2')+3)
+# print(5+True-bool('why'))
+# print(str(bool(str(type(3)))))
+# print('a'*int(str(10**2)))
+# x=3
+# while(str(bool(str(type(x))))):
+#   x=0
+# x=3
+# if x>3:
+#   print('mai mare ca 3')
+# elif x<3:
+#   print('mai mic ca 3')
+# else:
+#   print('x==3')
+
+# for x in range(21,100,3):
+#   print(x)
+# hdd=5*1024
+# poza=3
+# video=15
+# nr_poze=int(input('introduceti numarul de poze'))
+# nr_video=int(input('introduceti numar de video'))
+# spatiu_ramas=hdd-nr_poze*poza-nr_video*video
+# print(input("spatiu liber este: \n"), spatiu_ramas)
+
+# import math as m
+
+# x=4
+
+# result=m.sqrt(x)
+# print(result)
+
+# def first():
+#     print("1")
+# def first():
+#     print("2")
+# first()
+
+# capital = "London"
+# if len(capital) == 5:
+#     print(False)
+# else:
+#     print(True)
+
+# x=3
+# if(3 if x>3 else 10):
+#     print('Mai mare ca 3')
+# else:
+#     print("mai mic ca 3")
+# salariu_brut=int(input('Introduceti salariul brut \n'))
+# raspuns_in_IT=input('lucrati in IT\n')
+# este_in_IT=True if raspuns_in_IT=='da' else False
+# este_part_time=True if input('lucrati part time\n')=='da' else False
+
+# procent=45
+# taxe=salariu_brut/100*procent
+# salariu_net=salariu_brut-taxe
+
+# if este_in_IT:
+#     procent-=10
+
+# if este_part_time:
+#     procent-+5
+
+    
+# print(salariu_net) 
+# print(list(range(20,100)))
+
+# for i in range(20,100):
+#     if i%3==0:
+#      print(i)
+# def al_doilea_cel_mai_mic(l):
+#     cmm=l[0]
+#     for i in l:
+#         if i<cmm:
+#             cmm=i
+#     return cmm
+
+
+# lista=[32,5,68,100,3,1]  
+
+# print(al_doilea_cel_mai_mic(lista))   
+
+# x=20
+# y=10
+# print('#'*x)
+# for i in range(y-2):
+#     print('#' + ''*(x-2) +'#')
+# print('#'*x)
+
+# ani_bisecti=[]
+# for ani in range(1934,2017):
+#     if ani%4==0:
+#         ani_bisecti.append(ani)
+    
+    
+# print(ani_bisecti)
+
+# l=["Italia", "Franta", "Suedia","Romania", "Singapore"]
+# import random
+
+tabla = ["___", "___", "___"]
+
+for rand in tabla:
+    print(rand)
+
+
+import random
+import os    
+
+def insereaza_x_y():
+    x = int(input("Introduceti locatia in care vreti sa inserati X\n"))
+    y = int(input("Introduceti locatia in care vreti sa inserati Y\n"))
+    return x, y
+
+def genereaza_x_y():
+    x_calc = random.randint(0,2)
+    y_calc = random.randint(0,2)
+    return x_calc, y_calc
+
+def updateaza_tabla(x, y, simbol):
+    lista_tabla_y = list(tabla[y])
+    lista_tabla_y[x] = simbol
+    tabla[y] = ''.join(lista_tabla_y)
+
+este_randul_calc = False
+
+def verific_a_castigat_cineva():
+    
+    # Verificare pe orizontala
+    for linie in tabla:
+        if linie == 'XXX' or linie == '000':
+            return True
+      
+    # Verificare pe verticala
+    for i in range(3):
+        if tabla[0][i]+tabla[1][i]+tabla[2][i] == 'XXX':
+            return True
+        elif tabla[0][i]+tabla[1][i]+tabla[2][i] == '000':
+            return True
+
+    if tabla[0][0]+tabla[1][1]+tabla[2][2] == 'XXX':
+        return True
+    elif tabla[0][0]+tabla[1][1]+tabla[2][2] == '000':
+        return True
+
+    if tabla[0][2]+tabla[1][1]+tabla[2][0] == 'XXX':
+        return True
+    elif tabla[0][2]+tabla[1][1]+tabla[2][0] == '000':
+        return True
+
+    return False
+
+while True:
+    if este_randul_calc:
+        simbol = 'O'
+        functia = genereaza_x_y
+    else:
+        simbol = 'X'
+        functia = insereaza_x_y
+
+    x, y = functia()
+    while tabla[y][x] != '_':
+        print('Varianta nu este posibila')
+        x, y = functia()
+
+    updateaza_tabla(x, y, simbol)
+    
+    os.system('cls')
+    for rand in tabla:
+        print(rand)
+    print()
+    
+    if verific_a_castigat_cineva():
+        print('A castigat calculator'  if este_randul_calc else 'Ai castigat')
+        break
+    este_randul_calc = not este_randul_calc
+    
+
+
